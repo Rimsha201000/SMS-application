@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "beacon-valley-school-lms",
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
